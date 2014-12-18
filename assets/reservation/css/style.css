@@ -1,0 +1,314 @@
+/*header*/
+body{height:100%;background: url('../images/background.jpg') ; background-size: 100%;background-attachment: fixed;margin:0;padding:0}
+label{
+	color: #fee4c1;
+	font-weight: bolder;
+}
+
+#container{
+	width: 1200px;
+	height:auto;
+	margin: 150px auto 0 auto;
+	background: url('../images/background-reserve.png') repeat-y;
+	border:1px solid green;
+}
+#left-container{
+	border:1px solid red;
+	width: 275px;
+	height: 500px;
+}
+#left-container img{
+	display: block;
+	padding: 0px;
+	margin:0 auto 0 auto;
+}
+
+#left-container > #side-content{
+	margin: 0 17px 0 17px;
+}
+#left-container > #side-content > #side-header{		
+	padding: 5px;
+	
+}
+
+#left-container > #side-content > #side-header > .title{
+	border-bottom:2px solid #B06951;
+	padding-bottom: 10px;
+	margin-top:-2px;
+	color: #fee4c1;
+	font:normal 20px Verdana;
+	text-align: center;
+}
+
+#left-container > #side-content > #side-body{
+	padding: 2px;
+}
+
+#left-container > #side-content > #side-body #book{
+	border:none !important;
+	background: url('../images/booknow-button.png') no-repeat #C74002;
+	height: 45px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+#left-container > #side-content > #side-footer{
+	padding: 20px 2px 2px 2px;
+}
+#left-container > #side-content > #side-footer #side-icons{
+	margin: 0px;
+	padding-left: 0px;
+}
+#left-container > #side-content > #side-footer #side-icons li{
+	list-style: none;
+	display: inline-block;
+	margin-right:1px;
+	padding: 0px;
+	text-align: center;
+}
+#left-container > #side-content > #side-footer #side-icons li:first-child{
+	margin-left: 3px;
+}
+
+#cont{width:100%;min-height:100%;height:auto!important;margin-top:-70px}
+/*background: url('../images/background-left.png');*/
+#right_container{min-height: 500px;width: 928px;margin: 0 0 0 272px;height:auto}
+#upper_logo{z-index:1;position:absolute;margin:-74px 0 0 533px;cursor: pointer;}
+/*left container*/
+#padding{padding:0 20px 0 20px;}
+#text_mar{color: #fee4c1;font:normal 20px Verdana;text-align: center;margin:0;}
+#left_line{border:1px solid #b06951;width: 225px;margin:10px 0 0 0;}
+#form_book{}
+.text_date{color: #fee4c1;font:normal 16px arial;}
+.left_text_box{border:none;border-radius: 4px;font:normal 20px Verdana}
+.left_cal_icon{margin:12px 0 0 3px;cursor: pointer;border:1px solid red;}
+/*#book{background: url('../images/booknow-button.png');}*/
+#img_container{margin:30px 0 0 0;}
+.mar_right{margin-right: 5px}
+/*########################################*/
+/*right container*/
+/*header.php menu style*/
+ul#home_menu{z-index:6;padding:0;margin:0;position: absolute;margin: 40px 0 0 30px}
+ul#home_menu li{cursor: pointer;list-style: none;display: inline-block;position: relative;text-decoration: none;color:#926850;font: normal 14px Trajan Pro;}
+ul#home_menu li a{text-decoration: none;color:#926850;font: normal 14px Trajan Pro;}
+
+ul#home_menu ul.home_submenu{background-color: #62311d;z-index:6;display:none;padding: 0;margin:0 0 0 0;position:absolute;}	
+ul#home_menu ul.home_submenu li{padding:5px 10px;cursor: pointer;list-style: none;font:normal 14px Trajan Pro;width: 160px;}
+ul#home_menu ul.home_submenu li a{text-decoration: none;font:normal 14px Trajan Pro;color:white;}
+
+
+ul#home_menu li:hover ul.home_submenu{display: block;}
+ul#home_menu ul.home_submenu li:hover a{color:#926850;}
+ul#home_menu li:hover{color:#5b2e1b;}
+ul#home_menu li a:hover{color:#5b2e1b;}
+
+
+ul#home_menu li.active span{color:#5b2e1b;border-bottom: 1px solid #5b2e1b;padding-bottom:3px}
+ul#home_menu li.active a{color:#5b2e1b;border-bottom: 1px solid #5b2e1b;padding-bottom:3px}
+/*#######################END###########################*/
+.left_menu{padding:0 33px 0 0;}
+.right_menu{padding:0 25px 0 0;}
+.space{margin-left: 100px}
+
+/*menu line*/
+#menu_line_left{border-top:1px solid #753b27;position: absolute;width: 360px;margin:77px 0 0 30px;}
+#menu_line_right{border-top:1px solid #753b27;position: absolute;width: 380px;margin:77px 0 0 515px;}
+#space{height: 100px}
+/*################################*/
+/*footer*/
+#footer{min-width:100%;}
+#footer_content{padding-left:223px;margin:0px auto;text-align: center; width: 400px;height:70px;width:100%}
+#text_hotel{font:normal 14px Trajan Pro;color: #fee4c1;}
+#text_add{font:normal 12px arial; color:#fee4c1;}
+#text_email{font: normal 14px Candara; color:#fee4c1;}
+#text_copy{font:normal 14px Trajan Pro;color: #fee4c1;}
+
+/*index-body*/
+.body_container{border:1px solid black; width: 900px;margin:0 0 0 15px;height: auto}
+#text_content{width:880px;text-align:justify;margin: 0 0 0 30px;color: #753b27}
+.clear{clear:both}
+#text_wel{font: normal 48px Trajan Pro;color: #69301c;margin:  0 0 0 70px}
+
+/*slider*/
+
+.slid_wrapper{width:800px; height: 100px; margin-left: 70px;position:block}
+
+.history_wrapper{width:800px; height: 100px; margin-left: 200px;position:block; margin-bottom: 80px;}
+.xtitleline{width: 800px; margin-left:50px;text-align:center;}
+.xtitleline h1{font:normal 12px Trajan Pro;color:#753b27;}
+.titlelinevigan{width:800px;font: normal 48px Trajan Pro;color: #69301c;margin-left:375px;text-align:center;}
+#vigan_content{width:880px;text-align:justify;margin: 0 0 0 30px;color: #753b27}
+.vcont{width: 650px;padding:2px;text-align:justify;float:left;line-height:25px;}
+.vimg{padding:2px;text-align:justify;float:left;margin-left:20px;}
+.fvimg{padding:2px;text-align:justify;float:left;margin-right: 20px;}
+
+
+#titleline{font: normal 48px Trajan Pro;color: #69301c;margin:  0 100px 0 90px}
+#text_wel{font: normal 48px Trajan Pro;color: #69301c;margin:  0 0 0 70px}
+#text_content{width:880px;text-align:justify;margin: 0 0 0 30px;color: #753b27}
+
+#floral-reserve{}
+#text_reserve{color: #fee4c1;font:normal 20px Verdana;margin:0 0 0 17px}
+#line_down{border-top:1px solid #b06951;margin:8px 0 35px 0;}
+
+.text_date{color: #fee4c1;font:normal 16px arial;}
+.box_date{border:none;width: 182px;height: 38px;border-radius: 4px;margin:12px 0 12px 0;font:normal 20px Verdana}
+.cal_icon{position: absolute;margin:12px 0 0 3px;cursor: pointer;}
+/*#book{background: url('../images/booknow-button.png') no-repeat;border:none;width:240px;height: 50px;margin:0 0 0 -5px;cursor: pointer;}*/
+
+
+#border_image{ width: 280px;margin: 30px 0 0 25px;position:absolute; }
+#a{margin: 0 0 0 -5px}
+#b{margin: 0 0 0 -5px}
+#img_leaf{position: absolute;margin: 5px 0 0 2px}
+#con_detail{width: 575px;height: auto;margin: 40px 0 20px 320px;}
+#con_detail2{width: 575px;height: auto;margin: 0px 0 20px 320px;color: #753b27;text-align:justify;font: normal 14px arial;}
+#con_detail span#superior{font: normal 30px Trajan Pro;color: #69301c;margin: 0 0 0 30px}
+#con_detail span#superior a{font: normal 30px Trajan Pro;color: #69301c;margin: 0 0 0 30px;text-decoration: none}
+#con_detail p.lorems{font: normal 14px arial;color: #753b27;text-align:justify}
+#con_detail li.lorems {font: normal 14px arial;color: #753b27;list-style:none}
+#con_detail a.lorems{font: normal 14px arial;color: #753b27;list-style:none;text-decoration:none}
+#con_detail p#amenities{font:normal 18px Trajan Pro;color: #723f2b}
+#line_ame{border-top: 1px solid #8c5d2d;width: 575px;margin: -10px 0 0 0}
+#con_detail p#rm_acc{font:normal 18px Trajan Pro;color: #723f2b}
+
+/*roomssuites.php*/
+
+
+.gen_container{width:890px;margin:0 auto 0 auto;height: auto}
+#roomsuites{min-height:240px;margin:50px 0 20px 0;height: auto}
+#rs_img{width: 275px;height: 210px;}
+.img_up{position: absolute;}
+.img_down{position: absolute;margin:205px 0 0 0;}
+#rs_img_container{width: 290px;position: absolute;margin: -7px 0 0 0 }
+#rs_container_content{width: 580px;height:auto;margin:-30px 0 0 290px}
+#rs_title_container{width:290px;margin:0 auto 0 auto;}
+#rs_text{font: normal 30px Trajan Pro;color: #69301c;margin:0px 0 0 30px;width:350px;}
+#rs_title{font: normal 25px Trajan Pro;color: #69301c;margin:-10px 0 0 30px;width:350px;}
+
+#rs_line_content{border-top: 1px solid #8c5d2d; padding:5px 0 10px 0;margin:5px 0 0 0;}
+.content{font: normal 14px arial;color: #753b27;text-align:justify}
+#rs_readmore{text-decoration: none;color: #753b27 }
+#rs_leaf{position: absolute;margin:3px 0 0 3px}
+.rs_leaf{position: absolute;margin:1px 0 0 3px}
+/*amenities.php*/
+.ame_gen_font{font:normal 18px Trajan Pro;color: #723f2b;margin:10px 0 0 0;padding:0 0 10px 0;}
+#ame_container{ width: 580px;height:auto;margin:-30px 0 0 290px;padding:0 0 30px 0;}
+#ame_title{font: normal 30px Trajan Pro;color: #69301c;margin:10px 0 0 30px;width:350px;}
+#ame_leaf{position: absolute;margin:10px 0 0 3px}
+#roomft_container{padding:10px 0 10px;font: normal 14px arial;color: #753b27;text-align:justify}
+
+/*packages.php*/
+#package_title_container{width: 155px;margin: 10px auto 20px auto;}
+#package_title{font: normal 30px Trajan Pro;color: #69301c;}
+#package_name{font:normal 25px Trajan Pro; color:#69301c;border-bottom:1px solid #753b27}
+#package_leaf{position: absolute;margin: 5px 0 0 -25px}
+#package_img{width: 275px;}
+#package_image_container{width: 280px;position: absolute;margin: -20px 0 0 0}
+#package_container{margin: 0 0 10px 0;}
+#package_content_container{width: 590px;min-height: 250px;margin:50px 0 0 290px;height: auto}
+#package_des{font:normal 15px arial;color: #69301c;margin: 5px 0 10px 0}
+#package_acc_title{font:bold 16px Trajan Pro; color:#69301c;border-bottom: 1px solid #8c5d2d;margin:0 0 5px 0}
+#package_acc_content{font:normal 15px arial;color: #69301c;}
+/*rooms*/
+#rooms_container{width: 580px;height:auto;margin:-30px 0 0 290px;padding:0 0 30px 0;}
+
+/*activities.php*/
+#act_leaf{position: absolute;margin:5px 0 0 335px;}
+#activity_text{font: normal 30px Trajan Pro;color: #69301c;width: 170px;margin: 10px auto 20px auto}
+#act_container{height: 250px;}
+.act_img{width:230px; height:200px;margin: 15px 0 5px 0;position: absolute;}
+.act_border_up_img{width: 235px}
+#act_content_container{height:240px;width:645px;margin:0 0 0 240px}
+#act_title{font: normal 20px Trajan Pro;color: #69301c;margin: 17px 0 0 5px}
+#act_content{font: normal 14px arial;color: #753b27;text-align:justify;margin:0 0 0 5px;}
+
+/*shopping*/
+.shop_text{font: normal 30px Trajan Pro;color: #69301c;position: absolute;margin: -40px 0 0 70px}
+.shop_text_xsmall{font: normal 14px arial;color: #753b27;margin: 0px 30px 0px 0px;text-align: justify;height: 0px}
+.shop_text_small{font:normal 20px Trajan Pro;color: #723f2b;margin: -10px 0px 5px 0px;text-align:justify}
+
+/*private-events.php*/
+#private_text{font: normal 30px Trajan Pro;color: #69301c;width: 255px;margin: 10px auto 20px auto}
+#private_leaf{position: absolute;margin:5px 0 0 290px;}
+#private_img_container{height: auto;width: 300px;position: absolute;}
+#private_img{width:300px; height:260px;}
+.private_border_up_img{width: 300px;}
+.private_border_down_img{width: 300px;}
+#private_content_container{width: 555px;height:auto;margin:0 0 0 320px;padding: 0 0 20px 0}
+#private_venue_line{border-top:1px solid #723f2b;padding:5px 0 5px 0}
+
+.p_gen_title_text{font:normal 20px Trajan Pro;color: #723f2b;padding: 10px 0 5px 0}
+.p_gen_content_text{font: normal 16px arial;color: #753b27;text-align:justify;}
+
+.footer_line{margin: 0 0 0 -8px}
+
+/*hotelcumgallery*/
+#g_title_container{width: 330px;margin: 10px auto 20px auto;}
+#g_leaf{position: absolute;margin: 5px 0 0 -25px}
+#g_title{font: normal 30px Trajan Pro;color: #69301c;}
+
+/*rooms*/
+#roomft_container{border-top: 1px solid #8c5d2d;padding:10px 0 10px;font: normal 14px arial;color: #753b27;text-align:justify}
+#rooms_container{width: 580px;height:auto;margin:20px 0 0 290px;padding:0 0 30px 0;}
+#rum_img_container{position: absolute;margin: 20px 0 0 0}
+#room_leaf{position: absolute;}
+
+/*policy*/
+/*#p_title{font: normal 30px Trajan Pro;color: #69301c;margin: 0 0 0 30px}
+#p_title_container{width: 260px;margin:0 auto 0 auto;}*/
+
+/*policy*/
+#p_title{font: normal 30px Trajan Pro;color: #69301c;margin: 0 0 0 30px}
+#p_title_container{width: 260px;margin:0 auto 10px auto;}
+.hp_title{font:bold 20px Trajan Pro;color: #723f2b;}
+.bor_bottom{border-bottom: 1px solid #b06951;}
+.hp_gen_font{border:1px solid black;}
+#hp_content_container{width:600px;margin:40px 0 0 280px;}
+.ph_content{font:normal 15px Trajan Pro;color: #723f2b;margin: 0 0 20px 0}
+/*amenities.php*/
+.ame_gen_font{font:normal 18px Trajan Pro;color: #723f2b;margin:10px 0 0 0;padding:0 0 10px 0;}
+#ame_container{ width: 580px;height:auto;margin:0 0 0 290px;padding:0 0 30px 0;}
+#ame_title{font: normal 30px Trajan Pro;color: #69301c;margin:10px 0 0 30px;width:350px;}
+#ame_title_container{width:380px;margin:0 auto 0 auto;}
+#ame_img_container{width:280px;position: absolute;}
+
+/*contact us*/
+.form-container{width: 400px}
+.con-color{color: #753b27}
+
+#press_title_container{width: 200px;margin: 10px auto 20px auto;}
+
+/*tearoom*/
+#tr_title_container{width: 310px;margin:0 auto 0 auto}
+#tr_leaf{position: absolute;margin: 5px 0 0 -25px}
+#tr_title{font: normal 30px Trajan Pro;color: #69301c;}
+#tr_content_container{width: 870px;min-height: 500px;margin: 0 auto 0 auto}
+
+/*tearoom popup image*/
+#popimage{position: absolute;width: 100%;height: 100%;border: 1px solid black;}
+#popimage_container{border:1px solid black;width: 100%;height: 100%;background-color:black;opacity: 0.5;position: fixed;margin:-80px 0 0 0;z-index:8;display: none}
+.img_small{width: 200px; height: 150px;cursor: pointer;cursor: pointer;margin:5px 5px 5px 0;border:2px solid white;}
+/*#gallery_large{position: absolute;z-index:9;margin: -120px 0 0 0;display: none;width: 700px; height: 450px;border:1px solid black;}
+
+
+#gallery_large ul li{display: inline}*/
+#gallery_container{border:1px solid red;height: 500px;width: 690px;overflow: hidden;z-index:9;display:none;}
+#gallery_large{position:relative;border: 1px solid green;padding: 0;margin:0;}
+ul#gallery_large li img{width: 700px;height: 500px;}
+ul#gallery_large li{display:inline;list-style:none;padding: 0;margin: 0 0 0 -5px}
+#tr_header{ width: 700px;margin: 0 auto 15px auto;font:normal 15px arial;color: #723f2b;}
+#tearoom_name{font:normal 25px Trajan Pro;width: 150px;margin: 0 auto 15px auto;color: #69301c;}
+#lux_name{font:normal 25px Trajan Pro;width: 150px;margin: 10px auto 15px auto;color: #69301c;}
+.tea_img_name{opacity: 0;width: 200px;position: absolute;display: inline;margin: 133px 5px 0 -208px;background: url('../images/background2.png');color:white;font:normal 15px trajan pro;height: 20px}
+#img_border{display: inline}
+
+#tea_prev_img{position:absolute;width: 50px;height: 50px; z-index: 11;margin:-300px 0 0 0px;display: none}
+#tea_next_img{position:absolute;width: 50px;height: 50px;z-index: 12;margin:-300px 0 0 640px;display: none}
+
+/*########Luxuries###########*/
+#gallery_large2{position:relative;border: 1px solid green;padding: 0;margin:0;}
+ul#gallery_large2 li img{width: 700px;height: 500px;}
+ul#gallery_large2 li{display:inline;list-style:none;padding: 0;margin: 0 0 0 -5px}
+#gallery_container2{border:1px solid red;height: 500px;width: 690px;overflow: hidden;z-index:9;display: none}
+#tea_prev_img2{position:absolute;width: 50px;height: 50px; z-index: 11;margin:-330px 0 0 -45px;display: none}
+#tea_next_img2{position:absolute;width: 50px;height: 50px;z-index: 12;margin:-330px 0 0 590px;display: none}

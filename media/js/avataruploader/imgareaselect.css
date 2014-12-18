@@ -1,0 +1,14 @@
+form div.upload { overflow:hidden; }
+
+form div.upload label { font-weight:bold; display:block; margin-bottom:0.25em; }
+
+form div.upload div.file-preview {
+	background:#ccc;
+	border:1px solid #000;
+	display:inline-block;
+	float:left;
+	margin-right:1em;
+	width:100;
+	height:100px;
+	text-align:center;
+}
